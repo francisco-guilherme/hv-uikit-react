@@ -74,12 +74,15 @@ create_github_release() {
     rm "$package_commits_file" "$changelog"
 
     # Create GitHub release
-    if ! gh release create "v$new_version" --title "v$new_version" --notes "$release_notes"; then
+    if ! gh release create "v$new_version" --repo "$GITHUB_REPO_URL" --title "v$new_version" --notes "$release_notes"; then
         roll_back "Failed to create GitHub release."
     fi
 
-    # Push changes to the remote repository
-    if ! git push origin master; then
+    # Get the name of the current branch
+    current_branch=$(git rev-parse --abbrev-ref HEAD)
+
+    # Attempt to push changes to the current branch on the remote repository
+    if ! git pull origin "$current_branch" && git push origin "$current_branch"; then
         roll_back "Failed to push changes to the remote repository."
     fi
 }
@@ -98,7 +101,7 @@ generate_changelog() {
         commits=$(git log "$previous_tag..HEAD" --pretty=format:"%h %s -" -- "$pkg" | grep -v "chore") || continue
 
         [[ -n "$commits" ]] && {
-            echo "### $pkg_name@$pkg_version" >>"$package_commits_file"
+            echo "### \`$pkg_name@$pkg_version\`" >>"$package_commits_file"
             echo "$commits" | while read -r commit; do
                 commit_hash=$(echo "$commit" | awk '{print $1}')
                 commit_message=$(echo "$commit" | sed -e 's/^.*[0-9a-f]\{7\} //')
