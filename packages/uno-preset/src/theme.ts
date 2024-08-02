@@ -2,7 +2,6 @@ import { ThemeExtender } from "@unocss/core";
 import type { Theme } from "@unocss/preset-uno";
 import { ds5 as hvTheme } from "@hitachivantara/uikit-styles";
 
-// #region theme conversion utils
 const { dawn: defaultColors } = hvTheme.colors.modes;
 const { base, ...hvSpacing } = hvTheme.space;
 
@@ -14,7 +13,6 @@ const hvBreakpoints = Object.entries(hvTheme.breakpoints.values).map(
 const hvZIndex = Object.entries(hvTheme.zIndices).map(
   ([key, value]) => [key, `${value}`] as const,
 );
-// #endregion
 
 /** Extends the current theme with the NEXT Design System utilities */
 export const extendTheme: ThemeExtender<Theme> = (baseTheme) => ({
