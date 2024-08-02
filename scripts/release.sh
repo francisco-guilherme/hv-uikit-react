@@ -26,7 +26,7 @@ version_packages() {
     fi
 
     # Get the new version
-    new_version=$(npx lerna ls --json | jq -r '.[] | select(.name == "core") | .version')
+    new_version=$(npx lerna ls --json | jq -r '.[0].version')
 }
 
 # Commit and tag changes
@@ -108,8 +108,8 @@ generate_changelog() {
             done
             echo "" >>"$package_commits_file"
 
-            # Set flag to create release if there are changes in the core package
-            [[ "$pkg_name" == "core" ]] && create_release=true
+            # Set flag to create release if there are valid commits
+            create_release=true
         }
     done
 }
