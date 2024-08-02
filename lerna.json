@@ -10,7 +10,8 @@
       "allowBranch": ["master", "next*", "feat/*", "fix/*", "bug/*"],
       "message": "chore(release): publish",
       "conventionalCommits": true,
-      "createRelease": "github",
+      "gitTagVersion": false,
+      "yes": true,
       "contents": "package"
     }
   }

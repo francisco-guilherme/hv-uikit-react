@@ -37,7 +37,8 @@
     "publish:release": "lerna publish --conventional-graduate --yes",
     "publish:next": "lerna publish --conventional-prerelease --yes --preid next --dist-tag next",
     "prepare": "npx husky install .config/husky",
-    "lab:flow": "node scripts/flow-styles"
+    "lab:flow": "node scripts/flow-styles",
+    "release": "scripts/release.sh"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.8.1",
