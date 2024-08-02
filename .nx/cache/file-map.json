@@ -232,15 +232,15 @@
       },
       {
         "file": ".nx/cache/d/server-process.json",
-        "hash": "17720779035833596305"
+        "hash": "10744404155111301518"
       },
       {
         "file": ".nx/cache/file-map.json",
-        "hash": "7359462007395001102"
+        "hash": "6366856802245776803"
       },
       {
         "file": ".nx/cache/lockfile.hash",
-        "hash": "12636175313535040657"
+        "hash": "8185900057891957883"
       },
       {
         "file": ".nx/cache/parsed-lock-file.json",
@@ -248,7 +248,7 @@
       },
       {
         "file": ".nx/cache/project-graph.json",
-        "hash": "18109232405840037690"
+        "hash": "1470750541974517945"
       },
       {
         "file": ".prettierignore",
@@ -964,7 +964,7 @@
       },
       {
         "file": "package-lock.json",
-        "hash": "1894124815202422690"
+        "hash": "16933062858823480160"
       },
       {
         "file": "package.json",
@@ -984,7 +984,7 @@
       },
       {
         "file": "scripts/release.sh",
-        "hash": "10906686236361856686"
+        "hash": "7702011032072986000"
       },
       {
         "file": "scripts/storybook-title/index.js",
@@ -1637,7 +1637,7 @@
       "@hitachivantara/uikit-uno-preset": [
         {
           "file": "packages/uno-preset/CHANGELOG.md",
-          "hash": "6936581176631877534"
+          "hash": "11482208393675331380"
         },
         {
           "file": "packages/uno-preset/README.md",
@@ -1665,112 +1665,10 @@
         },
         {
           "file": "packages/uno-preset/src/theme.ts",
-          "hash": "937758888103491454"
+          "hash": "15945135742442286751"
         },
         {
           "file": "packages/uno-preset/vite.config.ts",
-          "hash": "12223559099115328054"
-        }
-      ],
-      "@hitachivantara/uikit-styles": [
-        {
-          "file": "packages/styles/CHANGELOG.md",
-          "hash": "1324308208318679997"
-        },
-        {
-          "file": "packages/styles/README.md",
-          "hash": "18374110318535307831"
-        },
-        {
-          "file": "packages/styles/package.json",
-          "hash": "3260429853639918221",
-          "deps": [
-            "npm:csstype",
-            "npm:vite"
-          ]
-        },
-        {
-          "file": "packages/styles/src/CssBaseline.ts",
-          "hash": "3602068374136899559"
-        },
-        {
-          "file": "packages/styles/src/index.ts",
-          "hash": "15035926527201172449"
-        },
-        {
-          "file": "packages/styles/src/makeTheme.ts",
-          "hash": "2457830071581019681"
-        },
-        {
-          "file": "packages/styles/src/theme.ts",
-          "hash": "838377677026483519"
-        },
-        {
-          "file": "packages/styles/src/themes/ds3.ts",
-          "hash": "17417705180455064302"
-        },
-        {
-          "file": "packages/styles/src/themes/ds5.ts",
-          "hash": "154345687836683591"
-        },
-        {
-          "file": "packages/styles/src/themes/index.ts",
-          "hash": "1987098176882210640"
-        },
-        {
-          "file": "packages/styles/src/themes/pentahoPlus.ts",
-          "hash": "15760482212108096529"
-        },
-        {
-          "file": "packages/styles/src/tokens/breakpoints.ts",
-          "hash": "17365163166908274712"
-        },
-        {
-          "file": "packages/styles/src/tokens/colors.ts",
-          "hash": "5157737620509455679"
-        },
-        {
-          "file": "packages/styles/src/tokens/colorsPalette.ts",
-          "hash": "9593957794457950692"
-        },
-        {
-          "file": "packages/styles/src/tokens/index.ts",
-          "hash": "4405832640995977961"
-        },
-        {
-          "file": "packages/styles/src/tokens/radii.ts",
-          "hash": "13965013127761237198"
-        },
-        {
-          "file": "packages/styles/src/tokens/sizes.ts",
-          "hash": "14883855165982173665"
-        },
-        {
-          "file": "packages/styles/src/tokens/space.ts",
-          "hash": "14179286570263945746"
-        },
-        {
-          "file": "packages/styles/src/tokens/typography.ts",
-          "hash": "699103389445337525"
-        },
-        {
-          "file": "packages/styles/src/tokens/zIndices.ts",
-          "hash": "10578763250653187259"
-        },
-        {
-          "file": "packages/styles/src/types.ts",
-          "hash": "15123678722101823294"
-        },
-        {
-          "file": "packages/styles/src/utils.ts",
-          "hash": "11876108679818207236"
-        },
-        {
-          "file": "packages/styles/tsconfig.json",
-          "hash": "4407301728581229941"
-        },
-        {
-          "file": "packages/styles/vite.config.ts",
           "hash": "12223559099115328054"
         }
       ],
@@ -1919,6 +1817,108 @@
         {
           "file": "apps/docs/tsconfig.json",
           "hash": "7523386192196814427"
+        }
+      ],
+      "@hitachivantara/uikit-styles": [
+        {
+          "file": "packages/styles/CHANGELOG.md",
+          "hash": "10844524961340626561"
+        },
+        {
+          "file": "packages/styles/README.md",
+          "hash": "18374110318535307831"
+        },
+        {
+          "file": "packages/styles/package.json",
+          "hash": "3260429853639918221",
+          "deps": [
+            "npm:csstype",
+            "npm:vite"
+          ]
+        },
+        {
+          "file": "packages/styles/src/CssBaseline.ts",
+          "hash": "3602068374136899559"
+        },
+        {
+          "file": "packages/styles/src/index.ts",
+          "hash": "6769542551322135629"
+        },
+        {
+          "file": "packages/styles/src/makeTheme.ts",
+          "hash": "2457830071581019681"
+        },
+        {
+          "file": "packages/styles/src/theme.ts",
+          "hash": "838377677026483519"
+        },
+        {
+          "file": "packages/styles/src/themes/ds3.ts",
+          "hash": "17417705180455064302"
+        },
+        {
+          "file": "packages/styles/src/themes/ds5.ts",
+          "hash": "154345687836683591"
+        },
+        {
+          "file": "packages/styles/src/themes/index.ts",
+          "hash": "1987098176882210640"
+        },
+        {
+          "file": "packages/styles/src/themes/pentahoPlus.ts",
+          "hash": "15760482212108096529"
+        },
+        {
+          "file": "packages/styles/src/tokens/breakpoints.ts",
+          "hash": "17365163166908274712"
+        },
+        {
+          "file": "packages/styles/src/tokens/colors.ts",
+          "hash": "5157737620509455679"
+        },
+        {
+          "file": "packages/styles/src/tokens/colorsPalette.ts",
+          "hash": "9593957794457950692"
+        },
+        {
+          "file": "packages/styles/src/tokens/index.ts",
+          "hash": "4405832640995977961"
+        },
+        {
+          "file": "packages/styles/src/tokens/radii.ts",
+          "hash": "13965013127761237198"
+        },
+        {
+          "file": "packages/styles/src/tokens/sizes.ts",
+          "hash": "14883855165982173665"
+        },
+        {
+          "file": "packages/styles/src/tokens/space.ts",
+          "hash": "14179286570263945746"
+        },
+        {
+          "file": "packages/styles/src/tokens/typography.ts",
+          "hash": "699103389445337525"
+        },
+        {
+          "file": "packages/styles/src/tokens/zIndices.ts",
+          "hash": "10578763250653187259"
+        },
+        {
+          "file": "packages/styles/src/types.ts",
+          "hash": "15123678722101823294"
+        },
+        {
+          "file": "packages/styles/src/utils.ts",
+          "hash": "11876108679818207236"
+        },
+        {
+          "file": "packages/styles/tsconfig.json",
+          "hash": "4407301728581229941"
+        },
+        {
+          "file": "packages/styles/vite.config.ts",
+          "hash": "12223559099115328054"
         }
       ]
     }
