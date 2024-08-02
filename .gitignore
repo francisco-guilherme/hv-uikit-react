@@ -54,3 +54,5 @@ dependency-check-bin
 
 # examples
 examples/*/package-lock.json
+
+.nx
