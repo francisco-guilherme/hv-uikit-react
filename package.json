@@ -35,7 +35,7 @@
     "typecheck": "lerna run typecheck",
     "depcheck": "npx -y owasp-dependency-check --project uikit -o reports --cveStartYear 2015",
     "publish-dry": "lerna publish --no-push --registry \"http://localhost:4873/\"",
-    "publish": "lerna publish",
+    "release": "sh scripts/release.sh",
     "prepare": "npx husky install .config/husky",
     "lab:flow": "node scripts/flow-styles"
   },

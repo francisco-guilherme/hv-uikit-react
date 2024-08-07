@@ -2,20 +2,11 @@
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "version": "independent",
   "packages": ["packages/*"],
-  "yes": true,
-  "distTag": "latest",
-  "preDistTag": "next",
   "command": {
-    "publish": {
-      "npmClientArgs": ["--legacy-peer-deps", "--production=false"]
-    },
     "version": {
-      "allowBranch": ["master", "next"],
-      "preid": "next",
-      "message": "chore(release): publish",
       "conventionalCommits": true,
-      "createRelease": "github",
-      "contents": "package"
+      "gitTagVersion": false,
+      "yes": true
     }
   }
 }
