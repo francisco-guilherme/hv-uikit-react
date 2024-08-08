@@ -155,5 +155,8 @@
   "workspaces": [
     "packages/*",
     "apps/*"
-  ]
+  ],
+  "changelogithub": {
+    "repo": "francisco-guilherme/hv-uikit-react"
+  }
 }

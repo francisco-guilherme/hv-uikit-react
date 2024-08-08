@@ -1,8 +1,5 @@
 #!/bin/bash
 
-GITHUB_REPO_URL=${GITHUB_REPO_URL:-"https://github.com/next-design-labs/next-ui"}
-
-# Check GITHUB_TOKEN environment variable
 if [ -z "${GITHUB_TOKEN:-}" ]; then
     echo "Error: GITHUB_TOKEN environment variable is not set."
     exit 1
@@ -22,7 +19,7 @@ version_packages() {
 
 # Get the new version from the next-ui-core package
 get_new_version() {
-    npx lerna ls --json | jq -r '.[] | select(.name | contains("next-ui-core")) | .version'
+    npx lerna ls --json | jq -r '.[0].version'
 }
 
 # Commit and push changes to the remote repository
@@ -37,7 +34,7 @@ commit_and_push_changes() {
         exit 1
     }
 
-    git push origin $current_branch --tags || {
+    git push francisco-guilherme $current_branch --tags || {
         echo "Failed to push changes to the remote repository."
         rollback "$new_version"
         exit 1

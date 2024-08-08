@@ -1,6 +1,6 @@
 {
   "name": "@hitachivantara/uikit-styles",
-  "version": "5.31.2",
+  "version": "5.31.3",
   "type": "module",
   "private": false,
   "author": "Hitachi Vantara UI Kit Team",
@@ -61,5 +61,6 @@
     "files": [
       "tsconfig.json"
     ]
-  }
+  },
+  "gitHead": "a122e1902619cfa44beaa16c6811c5d30e26b706"
 }
