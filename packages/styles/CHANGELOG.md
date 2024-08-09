@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.31.4](https://github.com/lumada-design/hv-uikit-react/compare/@hitachivantara/uikit-styles@5.31.0...@hitachivantara/uikit-styles@5.31.4) (2024-08-09)
+
+**Note:** Version bump only for package @hitachivantara/uikit-styles
+
+
+
+
+
 ## [5.31.3](https://github.com/lumada-design/hv-uikit-react/compare/@hitachivantara/uikit-styles@5.31.0...@hitachivantara/uikit-styles@5.31.3) (2024-08-09)
 
 **Note:** Version bump only for package @hitachivantara/uikit-styles
