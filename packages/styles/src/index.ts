@@ -1,7 +1,6 @@
 import * as themes from "./themes";
 
 export * from "./types";
-
 export * from "./theme";
 export * from "./makeTheme";
 export * from "./utils";
