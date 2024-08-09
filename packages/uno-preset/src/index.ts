@@ -1,5 +1,7 @@
 import { definePreset, mergeConfigs, UserConfig } from "@unocss/core";
 import { presetRemToPx } from "@unocss/preset-rem-to-px";
+
+
 import { presetUno, PresetUnoOptions, Theme } from "@unocss/preset-uno";
 import { presetTheme } from "unocss-preset-theme";
 
@@ -8,7 +10,7 @@ import { extendTheme, themeModes } from "./theme";
 
 export { rules, extendTheme, themeModes };
 
-export interface HvUnoOptions extends PresetUnoOptions {}
+export interface HvUnoOptions extends PresetUnoOptions { }
 
 export const presetHv = definePreset<HvUnoOptions, Theme>((options) => {
   /** HV base theme configuration */
