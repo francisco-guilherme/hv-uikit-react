@@ -1,7 +1,6 @@
 import { definePreset, mergeConfigs, UserConfig } from "@unocss/core";
 import { presetRemToPx } from "@unocss/preset-rem-to-px";
 
-
 import { presetUno, PresetUnoOptions, Theme } from "@unocss/preset-uno";
 import { presetTheme } from "unocss-preset-theme";
 
