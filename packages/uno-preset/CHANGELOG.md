@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/lumada-design/hv-uikit-react/compare/@hitachivantara/uikit-uno-preset@0.2.25...@hitachivantara/uikit-uno-preset@0.4.0) (2024-08-09)
+
+
+### Bug Fixes
+
+* some preset fix ([3f84f25](https://github.com/lumada-design/hv-uikit-react/commit/3f84f25ad47279f2fc3867ad30bb6933d2c8207e))
+
+
+
+# 5.32.0 (2024-08-09)
+
+
+### Features
+
+* some preset feat ([542f0ad](https://github.com/lumada-design/hv-uikit-react/commit/542f0ad053e80dc6905f410aa55a99d0d1cb4137))
+
+
+
+## 5.31.4 (2024-08-09)
+
+
+
+
+
 # [0.3.0](https://github.com/lumada-design/hv-uikit-react/compare/@hitachivantara/uikit-uno-preset@0.2.25...@hitachivantara/uikit-uno-preset@0.3.0) (2024-08-09)
 
 
